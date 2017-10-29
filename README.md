@@ -1,2 +1,2 @@
-# KenticoCloudContentExplorer
-A handy Google Chrome extension that allows you to copy and paste your Kentico Cloud project's content into the browser.
+# Kentico Cloud Content Explorer
+A handy Google Chrome extension that allows you to copy and paste your <a href="http://wwww.KenticoCloud.com/">Kentico Cloud</a> project's content into the browser.
