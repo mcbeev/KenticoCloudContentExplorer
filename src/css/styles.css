@@ -1,0 +1,56 @@
+body {
+  margin: 15px;
+  
+}
+
+h1 {
+  font-size: 15px;
+}
+
+div {
+  margin:15px 5px 20px 5px;
+}
+
+label{
+  margin:15px 15px 30px 0;
+}
+
+input{
+  font-family:"Segoe UI", Tahoma, sans-serif;
+  width: 251px;
+}
+
+select{
+  font-family:"Segoe UI", Tahoma, sans-serif;
+  width: 254px;
+}
+
+textarea {
+  font-family:"Segoe UI", Tahoma, sans-serif;
+  width: 251px;
+  height: 200px;
+  
+}
+
+input[type=checkbox] {
+    position: absolute;
+    margin-left: -125px;
+}
+
+button {
+    padding: 8px 10px;
+    display: inline;
+    background: #777;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+button.orange { 
+    background-color: #F05A22; 
+}
+button.close { 
+    margin-left: 18px;
+}

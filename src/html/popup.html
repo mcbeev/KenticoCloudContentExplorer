@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Kentico Cloud Content Explorer</title>
+    <link href="../css/styles.css" rel="stylesheet" />
+    <script src="../js/popup.js"></script>
+  </head>
+
+  <body>
+    <h1>Kentico Cloud Content Explorer</h1>
+    <div id="container">
+      <div>
+        <label for="projectid">Enter your Project ID</label>
+        <input type="text" id="projectid" />
+        
+        <label for="remember">Remember ?</label>
+        <input type="checkbox" id="rememberproject" value="remember" class="cbox" />
+      </div>
+
+      <div>
+        <label for="contentTypes">Choose a Content Type</label>
+        <select id="contentTypes">
+          <option selected disabled hidden value=''></option>
+          <option value="">Please enter a projectid</option>
+        </select>
+      
+        <label for="contentTypeItems">Choose a Content Type Item</label>
+        <select id="contentTypeItems">
+          <option selected disabled hidden value=''></option>
+          <option value="">Please enter a projectid or choose a content type.</option>
+        </select>
+      </div>
+
+      <div>
+          <label for="contentTypeElements">Choose an Element</label>
+          <select id="contentTypeElements">
+            <option selected disabled hidden value=''></option>
+            <option value="">Please enter a projectid or choose a content type and a content type item.</option>
+          </select>
+        
+          <label for="contentTypeElementContent">Content</label>
+          <textarea id="contentTypeElementContent">
+          </textarea>  
+      </div>
+
+      <div>
+          <button id="copy" disabled="disabled" class="orange">Copy All</button>
+          <button id="copyNoHtml" disabled="disabled">Copy Text Only</button>
+          <button id="close" class="close">Done</button>
+      </div>
+
+      <div>
+          <label id="results"></label>
+      </div>
+
+    </div>
+  </body>
+</html>

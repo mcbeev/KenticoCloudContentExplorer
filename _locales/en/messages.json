@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "Kentico Cloud Content Explorer",
+        "description": "Extension name"
+      },
+      "extDescr": {
+        "message": "This extension allows you to copy and paste content from your Kentico Cloud project into the browser easily.",
+        "description": "Extension Description"
+      }
+}
